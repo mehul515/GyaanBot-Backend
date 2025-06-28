@@ -1,0 +1,38 @@
+# === Global ignores ===
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+.env
+*.env
+
+# === IDEs ===
+.vscode/
+.idea/
+*.iml
+
+# === OS Files ===
+Thumbs.db
+Desktop.ini
+
+# === Java / Spring Boot ===
+**/target/
+**/.classpath
+**/.project
+**/.settings/
+**/.gradle/
+**/build/
+**/.mvn/
+**/out/
+*.jar
+*.war
+*.ear
+
+# === Node Modules (if any Node-based scripts/tools) ===
+**/node_modules/
+
+# === Secret files (explicit for clarity) ===
+chatservice/.env
+course-service/.env
+user-service/.env
